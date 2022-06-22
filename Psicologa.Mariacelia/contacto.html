@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <i> Lic.María Celia Gaetano</i>
+        </h1>
+        <nav class="navBar">
+            <ul class="navBarNav">
+                <li class="navBarItem"><a class="navBarLink" href="./index.html"> INICIO </a> </li>
+                <li class="navBarItem"><a class="navBarLink" href="./terapias.html">TERAPIAS</a></li>
+                <li class="navBarItem"><a class="navBarLink" href="./evaluacion.html">EVALUACION DIAGNOSTICA</a></li>
+                <li class="navBarItem"><a class="navBarLink" href="./formacion.html"> FORMACION</a></li>
+                <li class="navBarItem"><a class="navBarLink" href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <section>
+            <img src="./assets/imagencontactame.png" alt="telefonista">
+        </section>
+        <section>
+            <form class="form" action="" method="get">
+                <div class="registrarse">
+                    <label for="apellidos">Apellido</label>
+                    <input type="text" id="apellidos">
+                </div>
+                <div class="registrarse">
+                    <label for="nombre">Nombres</label>
+                    <input type="text" id="nombres">
+                </div>
+                <div class="registrarse">
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono">
+                </div>
+                <div class="registrarse">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="registrarse">
+                    <label for="paises">¿De qué país eres?</label>
+                    <select name="" id="paises">
+                        <option value="argentina">Argentina</option>
+                        <option value="peru">Perú</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                        <option value="venezuela">Venezuela</option>
+                        <option value="chile">Chile</option>
+                        <option value="mexico">Mexico</option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset class="registrarse">
+                        <legend>¿Eres mayor de 18 años?</legend>
+                        <div>
+                            <input type="radio" id="edad" value="1">
+                            <label for="edad">Menos de 18 años de edad</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="edad" value="2">
+                            <label for="edad">Más de 18 años de edad</label>
+                        </div>
+                        <label for="edad"></label>
+                    </fieldset>
+                    <fieldset class="registrarse">
+                        <legend>¿Quieres recibir artículos de interés?</legend>
+                        <div>
+                            <input type="radio" id="si" value="1">
+                            <label for="si">Sí</label>
+                            <input type="radio" id="no" value="2">
+                            <label for="no">No</label>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <input type="submit" name="enviar formulario">
+                        <input type="reset" name="formulario">
+                    </div>
+                </div>
+            </form>
+        </section>
+        <a href="../index.html">Volver al inicio</a>
+    </main>
+
+    <footer>
+        <section>
+            2022. María Celia Gaetano. Todos los derechos reservados.
+        </section>
+        <a href="https://www.instagram.com/celiagaetano96/?hl=es" target="_Blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/mar%C3%ADa-celia-gaetano-6941ab163/" target="_Blank">Linkedin</a>
+        <a href="https://www.facebook.com/mcgaetano" target="_blank">Facebook</a>
+    </footer>
+</body>
+
+</html>
